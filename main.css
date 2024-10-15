@@ -5,13 +5,13 @@ body {
 
 /* styling the paragraph element */
 p {
-    color: white;
+    color: black;
 }
 /* test */
 
 /* styling using id selector */
 #example-of-id {
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 /* styling using class selector */
@@ -21,11 +21,11 @@ p {
 
 /* styling using pseudo-class */
 a:hover {
-    color: orange;
+    color: rgba(255, 0, 140, 0.63);
 }
 
 /* styling using pseudo-element */
 p::first-letter {
-    font-weight: 500px;
-    color: green;
+    font-weight: 500;
+    color: rgba(214, 201, 20, 0.877);
 }
